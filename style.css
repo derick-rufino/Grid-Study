@@ -78,10 +78,11 @@ article{
 }
 
 article:hover{
-    cursor: pointer;
+    cursor: grab;
     scale: 1.01;
     transition: all 200ms;
 }
+article:active{cursor: grabbing;}
 
 article[dni] , article[dni]:hover{
     scale: 1;
